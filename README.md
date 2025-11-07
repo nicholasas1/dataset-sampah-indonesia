@@ -1,6 +1,34 @@
+# 🗑️ Jagabumi Waste Classification Dataset
+
+Dataset ini digunakan untuk melatih model *Convolutional Neural Network (CNN)* pada proyek **Jagabumi**, yaitu aplikasi edukasi klasifikasi sampah berbasis web yang membantu siswa sekolah dasar mengenal jenis-jenis sampah melalui teknologi *deep learning*.
+
+---
+
+## 📂 Struktur Dataset
+
 
 Setiap folder mewakili **kelas** (label) yang digunakan dalam pelatihan model CNN.
-
+dataset/
+├── organik/
+│ ├── buah/
+│ ├── sayur/
+│ ├── sisa_makanan/
+│ └── tanaman/
+├── anorganik/
+│ ├── plastik/
+│ │ ├── botol_plastik/
+│ │ ├── gelas_plastik/
+│ │ ├── kantong_kresek/
+│ │ └── plastik_kemasan/
+│ ├── kertas/
+│ ├── kain/
+│ ├── kaleng/
+│ └── styrofoam/
+└── b3/
+├── baterai/
+├── hp/
+├── bohlam/
+└── kabel/
 ---
 
 ## 📊 Informasi Dataset
